@@ -1,0 +1,41 @@
+body {
+
+    background-image: url("./media/cringe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.container{
+    color: white;
+    text-align: center;
+}
+
+.filler{
+    height: 80px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+}
+
