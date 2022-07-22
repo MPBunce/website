@@ -1,11 +1,13 @@
 body {
 
-    background-image: url("./media/cringe.jpg");
+    background-image: url("./media/cringe3.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    min-width: 350px;
+    text-align: center;
 }
 
 .container{
@@ -13,17 +15,48 @@ body {
     text-align: center;
 }
 
-.filler{
-    height: 80px;
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: white;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+
+    0% {background-color: white;}
+    49% {background-color: white;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: white;}
+
 }
 
 h1 {
-    font-size: 70px;
+    padding-top: 80px;
+    font-size: 80px;
+}
+.quote {
+
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+    overflow: visible;
+    max-height: 300px;
+}
+
+p {
+    font-size: 40px;
+    max-height: 130px;
+    min-height: 130px;
 }
 
 ul{
+
+    text-align: center;
     margin: 0;
     padding: 0;
+
 }
 
 li{
